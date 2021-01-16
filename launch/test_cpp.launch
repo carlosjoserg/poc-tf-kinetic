@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="mypkg" type="tf_subscriber_node" name="sub1" output="screen" />
+
+	<node pkg="mypkg" type="tf_subscriber_node" name="sub2" output="screen" />
+
+	<node pkg="mypkg" type="tf_subscriber_node" name="sub3" output="screen" />
+
+	<node pkg="mypkg" type="tf_subscriber_node" name="sub4" output="screen" />
+
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_1"  output="screen">
+		<param name="name" value="turtle1"/>
+		<param name="duration" value="0.01"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_2"  output="screen">
+		<param name="name" value="turtle2"/>
+		<param name="duration" value="0.001"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_3"  output="screen">
+		<param name="name" value="turtle3"/>
+		<param name="duration" value="0.05"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_4" output="screen">
+		<param name="name" value="turtle4"/>
+		<param name="duration" value="0.1"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_5"  output="screen">
+		<param name="name" value="turtle5"/>
+		<param name="duration" value="0.005"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_6"  output="screen">
+		<param name="name" value="turtle6"/>
+		<param name="duration" value="0.5"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_7"  output="screen">
+		<param name="name" value="turtle7"/>
+		<param name="duration" value="0.02"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_8"  output="screen">
+		<param name="name" value="turtle8"/>
+		<param name="duration" value="0.03"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_9"  output="screen">
+		<param name="name" value="turtle9"/>
+		<param name="duration" value="0.01"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_10"  output="screen">
+		<param name="name" value="turtle10"/>
+		<param name="duration" value="0.001"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_11"  output="screen">
+		<param name="name" value="turtle11"/>
+		<param name="duration" value="0.05"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_12" output="screen">
+		<param name="name" value="turtle2"/>
+		<param name="duration" value="0.1"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_13"  output="screen">
+		<param name="name" value="turtle13"/>
+		<param name="duration" value="0.005"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_14"  output="screen">
+		<param name="name" value="turtle14"/>
+		<param name="duration" value="0.5"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_15"  output="screen">
+		<param name="name" value="turtle15"/>
+		<param name="duration" value="0.02"/>
+	</node>
+	<node pkg="mypkg" type="tf_publisher_node" name="pub_16"  output="screen">
+		<param name="name" value="turtle16"/>
+		<param name="duration" value="0.03"/>
+	</node>
+</launch>
